@@ -15,10 +15,10 @@ SSRF test (internal port scanning):
 
 - Open port (e.g. http://127.0.0.1:3306): Instant error "Could not read this PDF: Failed to fetch"
 
-<video src="open3306.mp4"></video>
+<video src="open3306.gif"></video>
 
 - Closed port (e.g. http://127.0.0.1:3307): Delayed error (1~2 seconds) with same message
 
-<video src="close3307.mp4"></video>
+<video src="close3307.gif"></video>
 
 This time difference allows **port scanning** on localhost and potentially the internal network. Further attacks may be possible.
